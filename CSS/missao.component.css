@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.missao {
+    padding-bottom: 80px;
+}
+
+.imagem-topo {
+    position: relative;
+}
+
+.imagem-topo img {
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.icone-voltar {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 24px;
+    color: white;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.nivel {
+    background-color: #00bfff;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.criador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.criador img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.label {
+    color: #888;
+    font-size: 12px;
+}
+
+.botao-missao {
+    display: block;
+    background-color: #165a96;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.botao-missao:hover {
+    background-color: #114876;
+}
+
+footer.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    border-top: 1px solid #222;
+}
+
+.menu a {
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+}
+
+.menu a.ativo {
+    color: #00bfff;
+}

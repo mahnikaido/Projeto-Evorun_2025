@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.banner-topo {
+    position: relative;
+}
+
+.banner-topo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-topo .voltar {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 24px;
+    color: white;
+}
+
+.resumo {
+    padding: 20px;
+    text-align: center;
+}
+
+.resumo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resumo h2 {
+    font-size: 16px;
+    color: #bbb;
+}
+
+.detalhes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.detalhes span {
+    font-size: 12px;
+    color: #999;
+}
+
+.detalhes strong {
+    display: block;
+    font-size: 14px;
+    color: white;
+    margin-top: 4px;
+}
+
+.titulo-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 16px 8px;
+}
+
+.titulo-sec h3 {
+    font-size: 16px;
+}
+
+.titulo-sec a {
+    font-size: 12px;
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.lista {
+    padding: 0 16px 80px;
+}
+
+.item {
+    display: flex;
+    background-color: #121212;
+    border-radius: 12px;
+    padding: 12px;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.item img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.item strong {
+    font-size: 14px;
+}
+
+.item p {
+    font-size: 12px;
+    color: #bbb;
+    display: flex;
+    gap: 8px;
+    margin: 2px 0;
+}
+
+.item span {
+    font-size: 11px;
+    color: #999;
+}
+
+.btn-correr {
+    position: fixed;
+    bottom: 64px;
+    left: 16px;
+    right: 16px;
+    background-color: #165a96;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 14px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.btn-correr i {
+    margin-left: 6px;
+}
+
+footer.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    border-top: 1px solid #222;
+}
+
+.menu a {
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+}
+
+.menu a.ativo {
+    color: #00bfff;
+}
