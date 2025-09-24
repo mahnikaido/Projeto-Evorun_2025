@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo {
+    height: 36px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario .nome {
+    color: #00bfff;
+    font-weight: 600;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main.conteudo {
+    padding: 0 16px 80px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 16px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.texto-banner {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: white;
+}
+
+.texto-banner h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.texto-banner .azul {
+    color: #00bfff;
+}
+
+.texto-banner p {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.texto-banner i {
+    font-size: 24px;
+    color: #00bfff;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.titulo-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin: 24px 0 12px;
+}
+
+.titulo-sec a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.cards {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #121212;
+    border-radius: 12px;
+    padding: 16px 12px;
+    min-width: 140px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.card img {
+    width: 32px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.card strong {
+    color: white;
+}
+
+.desafio {
+    margin-top: 16px;
+}
+
+.semana {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 12px;
+}
+
+.semana li {
+    background-color: #121212;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    color: #888;
+}
+
+.semana li.ativo {
+    background-color: #00bfff;
+    color: black;
+    font-weight: bold;
+}
+
+footer.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    border-top: 1px solid #222;
+}
+
+.menu a {
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+}
+
+.menu a.ativo {
+    color: #00bfff;
+}
+
+.menu img {
+    color: #888;
+    width: 14px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsivo */
+@media screen and (max-width: 480px) {
+    .topo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .texto-banner h2 {
+        font-size: 14px;
+    }
+
+    .texto-banner p {
+        font-size: 12px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .card {
+        min-width: 130px;
+        padding: 12px 10px;
+    }
+
+    .menu span {
+        font-size: 10px;
+    }
+
+    .menu i {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 11px;
+    }
+
+    .titulo-sec {
+        font-size: 13px;
+    }
+
+    .titulo-sec a {
+        font-size: 12px;
+    }
+
+    .semana li {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+    }
+}

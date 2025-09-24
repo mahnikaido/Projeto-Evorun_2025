@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+main.mapa {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.mapa-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.topo {
+    position: absolute;
+    z-index: 2;
+    top: 16px;
+    left: 0;
+    right: 0;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.topo i {
+    font-size: 20px;
+}
+
+.painel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info-box {
+    background-color: #111;
+    border-radius: 12px;
+    padding: 12px;
+    width: 45%;
+    text-align: center;
+}
+
+.info-box .label {
+    font-size: 13px;
+    color: #bbb;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.info-box strong {
+    font-size: 16px;
+    color: white;
+}
+
+.botao-parar {
+    background-color: #165a96;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.botao-parar i {
+    margin-right: 6px;
+}

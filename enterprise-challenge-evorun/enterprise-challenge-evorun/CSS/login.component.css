@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/Assets/Background\ Login\ 1.jpg') no-repeat center center / cover;
+}
+
+.container-login {
+    background: url('/Assets/Background\ Login\ 1.jpg') no-repeat center center / cover;
+    padding: 32px 24px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 360px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+}
+
+.container-login::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 16px;
+    z-index: 0;
+}
+
+.container-login>* {
+    position: relative;
+    z-index: 1;
+}
+
+.logo-evorun {
+    width: 120px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.slogan {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.boas-vindas {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #ccc;
+}
+
+.link-evorun {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-custom {
+    width: 100%;
+    padding: 12px 40px;
+    border-radius: 10px;
+    background-color: #0f151b;
+    border: 1px solid #2c3e50;
+    color: white;
+    font-size: 14px;
+}
+
+.input-custom::placeholder {
+    color: #888;
+}
+
+.icon-input {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00bfff;
+    font-size: 18px;
+}
+
+.icon-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    cursor: pointer;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.form-check-input {
+    margin-right: 8px;
+}
+
+.btn-entrar {
+    background-color: #165a96;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-entrar:hover {
+    background-color: #114876;
+}
