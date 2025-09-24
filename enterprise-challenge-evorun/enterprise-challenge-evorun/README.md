@@ -4,10 +4,12 @@ Evorun é uma plataforma digital gamificada que transforma atividades físicas c
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 🎯 **Nosso Propósito**
+
 Incentivar a constância nos exercícios físicos por meio de uma experiência interativa baseada em missões, recompensas e narrativas imersivas.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ **Funcionalidades**
+
 1. Principais Onboarding com narrativa personalizada 
 2. Missões semanais com recompensas motivadoras 
 3. Áudios narrativos que acompanham o usuário durante os treinos 
@@ -26,12 +28,14 @@ Muita energia e café ☕
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 🔮 **Visão de Futuro**
+
 Expansão de funcionalidades e conteúdos 
 Criação de uma comunidade ativa e engajada 
 Lançamento do MVP em breve
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ✨ **Funcionalidades (em progresso)**
+
 Tela de login e cadastro 
 Tela inicial com desafios diários 
 Sistema de pontos e conquistas 
@@ -41,6 +45,7 @@ Loja de recompensas
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 🎨 **Design e UX**
+
 O projeto foi pensado com foco em acessibilidade, navegação intuitiva e visual divertido. Os protótipos foram criados no Figma e seguem boas práticas de UX/UI.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
