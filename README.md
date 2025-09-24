@@ -31,12 +31,12 @@ Incentivar a constância nos exercícios físicos por meio de uma experiência i
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✨ **Funcionalidades (em progresso)**
- ✅ Tela de login e cadastro
- ✅ Tela inicial com desafios diários
- ✅ Sistema de pontos e conquistas
- ✅ Integração com sensores de movimento
- ✅ Ranking entre amigos
- ✅ Loja de recompensas
+ ✅ - Tela de login e cadastro
+ ✅ - Tela inicial com desafios diários
+ ✅ - Sistema de pontos e conquistas
+ - Integração com sensores de movimento
+ - Ranking entre amigos
+ - Loja de recompensas
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎨 **Design e UX**
