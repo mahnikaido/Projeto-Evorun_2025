@@ -8,35 +8,35 @@ Incentivar a constância nos exercícios físicos por meio de uma experiência i
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ **Funcionalidades Principais**
-Onboarding com narrativa personalizada
-Missões semanais com recompensas motivadoras
-Áudios narrativos que acompanham o usuário durante os treinos
-Sistema de progressão com medalhas, níveis e itens colecionáveis
-Dashboard intuitivo para acompanhar a evolução
-Interface amigável com visual motivador
+- Onboarding com narrativa personalizada
+- Missões semanais com recompensas motivadoras
+- Áudios narrativos que acompanham o usuário durante os treinos
+- Sistema de progressão com medalhas, níveis e itens colecionáveis
+- Dashboard intuitivo para acompanhar a evolução
+- Interface amigável com visual motivador
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 💻 **Tecnologias Utilizadas**
-- React Native + Expo
-- Node.js
-- Firebase (em breve!)
-- Figma (para os protótipos)
-- Muita energia e café ☕
+1. React Native + Expo
+2. Node.js
+3. Firebase (em breve!)
+4. Figma (para os protótipos)
+5. Muita energia e café ☕
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔮 **Visão de Futuro**
-Expansão de funcionalidades e conteúdos
-Criação de uma comunidade ativa e engajada
-Lançamento do MVP em breve
+- Expansão de funcionalidades e conteúdos
+- Criação de uma comunidade ativa e engajada
+- Lançamento do MVP em breve
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✨ **Funcionalidades (em progresso)**
- Tela de login e cadastro
- Tela inicial com desafios diários
- Sistema de pontos e conquistas
- Integração com sensores de movimento
- Ranking entre amigos
- Loja de recompensas
+ ✅ Tela de login e cadastro
+ ✅ Tela inicial com desafios diários
+ ✅ Sistema de pontos e conquistas
+ ✅ Integração com sensores de movimento
+ ✅ Ranking entre amigos
+ ✅ Loja de recompensas
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎨 **Design e UX**
