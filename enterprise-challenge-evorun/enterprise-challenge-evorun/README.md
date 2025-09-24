@@ -20,28 +20,28 @@ Incentivar a constância nos exercícios físicos por meio de uma experiência i
 ----------------------------------------------------------------------------------------------------------------------------------------------
 💻 **Tecnologias Utilizadas**
 
-React Native + Expo
-Node.js
-Firebase (em breve!)
-Figma (para os protótipos)
-Muita energia e café ☕
+° React Native + Expo
+° Node.js
+° Firebase (em breve!)
+° Figma (para os protótipos)
+° Muita energia e café ☕
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 🔮 **Visão de Futuro**
 
-Expansão de funcionalidades e conteúdos 
-Criação de uma comunidade ativa e engajada 
-Lançamento do MVP em breve
+° Expansão de funcionalidades e conteúdos 
+° Criação de uma comunidade ativa e engajada 
+° Lançamento do MVP em breve
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ✨ **Funcionalidades (em progresso)**
 
-Tela de login e cadastro 
-Tela inicial com desafios diários 
-Sistema de pontos e conquistas 
-Integração com sensores de movimento 
-Ranking entre amigos 
-Loja de recompensas
+° Tela de login e cadastro 
+° Tela inicial com desafios diários 
+° Sistema de pontos e conquistas 
+° Integração com sensores de movimento 
+° Ranking entre amigos 
+° Loja de recompensas
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 🎨 **Design e UX**
